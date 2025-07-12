@@ -1,0 +1,50 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# Editor/IDE config
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Mypy, Pylint, Bandit
+.mypy_cache/
+.pylint.d/
+.bandit/
+
+# FastAPI static/generated
+staticfiles/
+generated/
+
+# Docker
+*.container
+*.pid
+*.sock
+
+# Jupyter (if used)
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
